@@ -2,11 +2,11 @@ package com.example.mydaggerwithkotlinprac
 
 import javax.inject.Inject
 
-class Mediatech:Processor {
+class MediatechProcessor:Processor {
     @Inject
     constructor()
     override fun run() {
-        System.out.println("running Mediatech")
+        System.out.println("running Mediatech processor")
 
     }
 }

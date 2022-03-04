@@ -3,7 +3,7 @@ package com.example.mydaggerwithkotlinprac
 import dagger.Component
 import javax.inject.Inject
 
-@Component(modules = [SnapdragonProcessorModule::class])
+@Component(modules = [/*SnapdragonProcessorModule::class,*/MediatechProcessorModule::class])
 interface MobileComponent {
 
     fun getMobile():Mobile
