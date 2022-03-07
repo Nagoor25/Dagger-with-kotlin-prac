@@ -13,6 +13,7 @@ class Mobile {
         this.processor = processor
     }
     fun ringing(){
+        processor.run()
         System.out.println("Mobile ringing...")
         Log.e("rrr","Mobile ringing...")
     }
