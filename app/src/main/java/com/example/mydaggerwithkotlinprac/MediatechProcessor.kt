@@ -7,6 +7,8 @@ class MediatechProcessor:Processor {
     constructor()
     override fun run() {
         System.out.println("running Mediatech processor")
+        System.out.println("running Mediatech processor with abstract")
+
 
     }
 }
